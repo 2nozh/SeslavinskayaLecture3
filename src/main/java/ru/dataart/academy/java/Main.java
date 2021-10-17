@@ -16,7 +16,7 @@ public class Main{
 
         Figure[] figureArray = new Figure[]{circle1,circle2,rectangle1,rectangle2};
         Calculator calculator=new Calculator( );
-        double sum = calculator.Calculator(figureArray);
+        double sum = calculator.calculator(figureArray);
         System.out.println(sum);
 
     }

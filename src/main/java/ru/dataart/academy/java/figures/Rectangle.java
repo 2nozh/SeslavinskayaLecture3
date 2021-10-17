@@ -9,12 +9,14 @@ public class Rectangle extends Figure{
         this.b=b;
     }
     @Override
-    public double Perimeter() {
+    public double perimeter() {
+
         return 2*(a+b);
     }
 
     @Override
-    public double Area() {
+    public double area() {
+
         return a*b;
     }
 }
